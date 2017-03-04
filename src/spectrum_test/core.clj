@@ -19,6 +19,9 @@
 (defn mk-foo [a b]
   {::a a ::b b})
 
+;; Run this in the REPL and it fails:
+;  (check/check 'spectrum-test.core)
+
 
 
 
